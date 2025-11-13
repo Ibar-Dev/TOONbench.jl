@@ -1,4 +1,4 @@
-# TOONBench.jl
+# TOONBench-jl
 
 Sistema de benchmark para comparar eficiencia de serialización TOON vs JSON en contextos de LLMs, aprovechando la velocidad de Julia para generación de datos y Python para conversión TOON.
 
