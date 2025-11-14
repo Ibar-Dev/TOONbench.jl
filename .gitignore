@@ -86,3 +86,5 @@ MANIFEST
 venv/
 env/
 ENV/
+
+.claude
