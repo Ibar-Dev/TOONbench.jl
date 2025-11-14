@@ -25,7 +25,7 @@ TOON (Token-Oriented Object Notation) promete reducir 30-60% tokens en prompts L
 ## Estructura del Proyecto
 
 ```
-TOONBench.jl/
+toonbench/
 ├── README.md                    # Este archivo
 ├── Project.toml                 # Dependencias Julia
 ├── src/
@@ -36,8 +36,8 @@ TOONBench.jl/
 │   └── visualizer.jl           # Generación de gráficos
 ├── examples/
 │   ├── basic_usage.jl          # Ejemplo básico
-│   ├── full_benchmark.jl       # Benchmark completo
-│   └── scientific_case.jl      # Caso científico
+│   ├── scientific_data.jl      # Caso científico
+│   └── compare_formats.jl      # Comparativa completa
 └── results/                     # Outputs del benchmark
 ```
 
@@ -52,7 +52,7 @@ TOONBench.jl/
 ### Paso 1: Clonar Repositorio
 
 ```bash
-git clone https://github.com/ibarvivas/TOONBench.jl.git
+git clone https://github.com/tuusuario/TOONBench.jl.git
 cd TOONBench.jl
 ```
 
@@ -120,7 +120,7 @@ Datos de sensores, mediciones experimentales:
 
 ```julia
 # Generar 10,000 mediciones de temperatura/presión
-data = generate_timeseries(10_000,
+data = generate_timeseries(10_000, 
     fields = [:timestamp, :temperature, :pressure, :humidity]
 )
 
@@ -253,7 +253,7 @@ MIT License - Ver `LICENSE` para detalles
 
 ## Autor
 
-Desarrollado por Ibar Ernesto Vivas - Especialista en Julia/Python para computación científica
+Desarrollado por [Tu Nombre] - Especialista en Julia/Python para computación científica
 
 ## Referencias
 
@@ -267,9 +267,9 @@ Si usas TOONBench.jl en investigación, por favor cita:
 
 ```bibtex
 @software{toonbench2025,
-  author = {Vivas, Ibar Ernesto},
+  author = {Tu Nombre},
   title = {TOONBench.jl: Benchmark TOON vs JSON para LLMs con Julia},
   year = {2025},
-  url = {https://github.com/ibarvivas/TOONBench.jl}
+  url = {https://github.com/tuusuario/TOONBench.jl}
 }
 ```
