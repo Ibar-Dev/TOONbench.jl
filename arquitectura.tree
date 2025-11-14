@@ -1,0 +1,25 @@
+toonbench/
+├── Documentación (26KB)
+│   ├── README.md (principal, exhaustivo)
+│   ├── PROJECT_OVERVIEW.md (resumen visual)
+│   ├── GITHUB_SETUP.md (cómo publicar)
+│   ├── CHANGELOG.md
+│   ├── CONTRIBUTING.md
+│   └── LICENSE (MIT)
+│
+├── Código Fuente (49KB)
+│   ├── TOONBench.jl (módulo principal)
+│   ├── data_generator.jl (generadores científicos)
+│   ├── toon_converter.jl (bridge Julia-Python)
+│   ├── benchmarker.jl (sistema de medición)
+│   └── visualizer.jl (reportes HTML)
+│
+├── Ejemplos (25KB, 3 scripts)
+│   ├── basic_usage.jl (inicio rápido)
+│   ├── full_benchmark.jl (suite completa)
+│   └── scientific_case.jl (caso real Monte Carlo)
+│
+└── Setup (12KB)
+    ├── setup.jl (instalación automática)
+    ├── test_before_publish.jl (validación)
+    └── Project.toml (dependencias)
